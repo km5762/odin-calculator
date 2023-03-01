@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="scripts.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
@@ -13,7 +12,7 @@
 </head>
 <body>
     <div class="calculator">
-        <div class="viewport"></div>
+        <div class="viewport"><span></span></div>
         <div class="buttonrow">
             <button id="AC">AC</button>
             <button id="C">C</button>
@@ -21,28 +20,29 @@
             <button id="division">÷</button>
         </div>
         <div class="buttonrow">
-            <button data-value>7</button>
-            <button data-value>8</button>
-            <button data-value>9</button>
+            <button class="value">7</button>
+            <button class="value">8</button>
+            <button class="value">9</button>
             <button id="add">+</button>
         </div>
         <div class="buttonrow">
-            <button data-value>4</button>
-            <button data-value>5</button>
-            <button data-value>6</button>
+            <button class="value">4</button>
+            <button class="value">5</button>
+            <button class="value">6</button>
             <button id="subtract">-</button>
         </div> 
         <div class="buttonrow">
-            <button data-value>1</button>
-            <button data-value>2</button>
-            <button data-value>3</button>
+            <button class="value">1</button>
+            <button class="value">2</button>
+            <button class="value">3</button>
             <button id="multiply">x</button>
         </div>
         <div class="buttonrow">
-            <button data-value>0</button>
+            <button class="value">0</button>
             <button id="decimal">.</button>
             <button id="equals">=</button>
         </div>
     </div>
 </body>
 </html>
+<script src="scripts.js"></script>
