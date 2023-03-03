@@ -45,18 +45,34 @@
     border: 0;
     margin: 7.595px 7.595px;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.25);
     font-family: 'Inter', sans-serif;
     font-size: 2em;
     color: rgba(0, 0, 0, 0.85);
+}
+
+.calculator .value {
+    background-color: rgba(255, 255, 255, 0.25);
 }
 
 .calculator .buttonrow button:hover {
     background-color: rgba(255, 255, 255, 0.571);
 }
 
+#C {
+    background-color: rgb(252,99,48);
+}
+
+#AC {
+    background-color: rgb(252,176,69);
+}
+
 #equals {
     flex: 2.154;
+    background-color: rgb(131,58,180);
+}
+
+.calculator .operator {
+    background-color: rgb(188,45,110);
 }
 
 body {

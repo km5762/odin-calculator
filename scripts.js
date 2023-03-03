@@ -12,7 +12,7 @@ let currentOperation = 'await';
 
 values.forEach(value => {
     value.addEventListener('click', () => {
-        if (val2 == parseFloat(viewPortText.textContent) || val1 == parseFloat(viewPortText.textContent)) {
+        if (val1 != 'await' && val1.toFixed(3) == parseFloat(viewPortText.textContent).toFixed(3)) {
             clearDisplay();
         }
         viewPortText.textContent += value.textContent;
